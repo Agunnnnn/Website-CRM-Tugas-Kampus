@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (JANGAN sampai ke-upload, ada password & JWT secret!)
+.env
+
+# Logss
+npm-debug.log*
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# User uploads
+uploads/*
+!uploads/.gitkeep
