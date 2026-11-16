@@ -1,5 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
-
+const API_BASE_URL = import.meta.env.VITE_API_URL || "/api";
 export async function request(endpoint, options = {}) {
   const url = `${API_BASE_URL}${endpoint}`;
   const headers = {
@@ -15,10 +14,10 @@ export async function request(endpoint, options = {}) {
   const data = await response.json().catch(() => null);
 
   if (!response.ok) {
-    const errorMsg = data?.message || `Request failed with status ${response.status}`;
+    const errorMsg =
+      data?.message || `Request failed with status ${response.status}`;
     throw new Error(errorMsg);
   }
 
   return data;
 }
-
