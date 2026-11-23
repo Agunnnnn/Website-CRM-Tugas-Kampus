@@ -60,7 +60,7 @@ export default function PointsModal({ isOpen, onClose, member, onNavigateToOrder
             </div>
             <div>
               <h2 className="text-lg font-black text-white tracking-tight">
-                Sistem Poin MemberKu
+                Sistem Poin Loyaltix
               </h2>
               <p className="text-xs text-zinc-400">
                 Kumpulkan poin di setiap transaksi & nikmati diskonnya

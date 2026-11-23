@@ -52,10 +52,10 @@ export default function MemberLogin({
 
         <div className="text-center mb-6">
           <span className="bg-orange-500 text-white px-3 py-1.5 rounded-2xl font-black text-sm inline-block mb-3 shadow-lg shadow-orange-500/20">
-            MK
+            Ly
           </span>
           <h1 className="text-2xl font-black text-white tracking-tight">
-            {isRegister ? "Daftar Member Baru" : "Login MemberKu"}
+            {isRegister ? "Daftar Member Baru" : "Login Loyaltix"}
           </h1>
           <p className="text-xs text-zinc-400 mt-1">
             {isRegister

@@ -312,7 +312,7 @@ export default function AdminDashboard({ onLogout }) {
         {/* INFORMASI KELOMPOK & COPYWRITING (SESUAI SYARAT TUGAS) */}
         <div className="bg-[#18181b] border border-zinc-800 rounded-3xl p-6 text-center space-y-2 shadow-xl">
           <p className="text-xs font-bold uppercase tracking-wider text-orange-500">
-            Tim Pengembang MemberKu CRM
+            Tim Pengembang Loyaltix CRM
           </p>
           <p className="text-xs text-zinc-300 font-medium">
             Anggota Kelompok:{" "}

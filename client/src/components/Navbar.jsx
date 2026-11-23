@@ -52,7 +52,7 @@ export default function Navbar({
           className="flex items-center space-x-2.5 cursor-pointer group select-none"
         >
           <div className="w-9 h-9 rounded-full bg-linear-to-tr from-orange-600 via-orange-500 to-amber-400 text-white font-black text-xs flex items-center justify-center shadow-lg shadow-orange-500/25 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-            MK
+            Ly
           </div>
           <div className="flex items-center">
             <span className="font-extrabold text-lg tracking-tight text-white group-hover:text-zinc-100 transition">

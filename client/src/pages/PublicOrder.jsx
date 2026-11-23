@@ -155,7 +155,7 @@ export default function PublicOrder({
 
       setSuccessOrderData({
         orderNumber: result.orderNumber,
-        outletName: chosenOutletObj ? chosenOutletObj.name : "Outlet MemberKu",
+        outletName: chosenOutletObj ? chosenOutletObj.name : "Outlet Loyaltix",
         items: [...cart],
         subtotal: result.subtotal,
         discountAmount: result.discountAmount,
@@ -268,7 +268,7 @@ export default function PublicOrder({
         className="bg-[#18181b] border border-zinc-800 rounded-3xl p-8 sm:p-12 text-center shadow-lg relative overflow-hidden"
       >
         <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight mb-4">
-          Selamat Datang di <span className="text-orange-500">MemberKu</span>
+          Selamat Datang di <span className="text-orange-500">Loyaltix</span>
         </h1>
         <p className="text-sm sm:text-base text-zinc-400 max-w-2xl mx-auto mb-8">
           Nikmati kemudahan memesan menu favorit dan kumpulkan poin member
