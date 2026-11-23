@@ -315,13 +315,17 @@ export default function PublicOrder({
               <span className="px-3 py-1 bg-orange-500/10 text-orange-400 border border-orange-500/20 text-[10px] font-extrabold uppercase tracking-wider rounded-full flex items-center gap-1">
                 ⭐ Loyalty Program
               </span>
-              <span className="text-xs text-zinc-400">1 Pesanan Selesai = +1 Poin</span>
+              <span className="text-xs text-zinc-400">
+                1 Pesanan Selesai = +1 Poin
+              </span>
             </div>
             <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight">
               Kumpulkan Poin, Dapatkan Diskon Belanja!
             </h2>
             <p className="text-xs text-zinc-400 leading-relaxed">
-              Tiap kali pesananmu selesai, kamu otomatis mendapatkan poin member. Tukarkan kelipatan 100 poin untuk mendapatkan potongan harga langsung Rp 10.000 saat memesan.
+              Tiap kali pesananmu selesai, kamu otomatis mendapatkan poin
+              member. Tukarkan kelipatan 100 poin untuk mendapatkan potongan
+              harga langsung Rp 10.000 saat memesan.
             </p>
           </div>
 
@@ -352,7 +356,9 @@ export default function PublicOrder({
             </div>
             <div>
               <p className="text-xs font-bold text-white">2. Dapat +1 Poin</p>
-              <p className="text-[10px] text-zinc-400">Saat pesanan berstatus Selesai</p>
+              <p className="text-[10px] text-zinc-400">
+                Saat pesanan berstatus Selesai
+              </p>
             </div>
           </div>
 
@@ -361,7 +367,9 @@ export default function PublicOrder({
               🎁
             </div>
             <div>
-              <p className="text-xs font-bold text-white">3. Diskon Rp 10.000</p>
+              <p className="text-xs font-bold text-white">
+                3. Diskon Rp 10.000
+              </p>
               <p className="text-[10px] text-zinc-400">Setiap tukar 100 poin</p>
             </div>
           </div>

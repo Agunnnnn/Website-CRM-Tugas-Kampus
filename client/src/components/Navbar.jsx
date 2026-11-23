@@ -51,12 +51,12 @@ export default function Navbar({
           onClick={() => scrollToSection("hero")}
           className="flex items-center space-x-2.5 cursor-pointer group select-none"
         >
-          <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-orange-600 via-orange-500 to-amber-400 text-white font-black text-xs flex items-center justify-center shadow-lg shadow-orange-500/25 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+          <div className="w-9 h-9 rounded-full bg-linear-to-tr from-orange-600 via-orange-500 to-amber-400 text-white font-black text-xs flex items-center justify-center shadow-lg shadow-orange-500/25 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
             MK
           </div>
           <div className="flex items-center">
             <span className="font-extrabold text-lg tracking-tight text-white group-hover:text-zinc-100 transition">
-              MemberKu
+              Loyaltix
             </span>
             <span className="text-orange-500 text-xl font-black animate-pulse">
               .
@@ -118,7 +118,7 @@ export default function Navbar({
                 className="group flex items-center gap-2 bg-zinc-900/90 hover:bg-zinc-800/90 p-1.5 sm:px-3 sm:py-1.5 rounded-full border border-zinc-800 hover:border-orange-500/50 transition-all duration-200 cursor-pointer shadow-sm hover:shadow-orange-500/15 hover:scale-[1.03] active:scale-95"
                 title="Klik untuk membuka rincian & status poin"
               >
-                <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-orange-500 to-amber-400 text-white font-extrabold text-xs flex items-center justify-center shadow-sm">
+                <div className="w-7 h-7 rounded-full bg-linear-to-tr from-orange-500 to-amber-400 text-white font-extrabold text-xs flex items-center justify-center shadow-sm">
                   {memberInitial}
                 </div>
                 <div className="hidden sm:flex flex-col text-left">
@@ -146,7 +146,7 @@ export default function Navbar({
           ) : (
             <button
               onClick={onNavigateToMemberLogin}
-              className="px-4 py-2 rounded-full text-xs font-extrabold text-white bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 transition-all cursor-pointer shadow-lg shadow-orange-500/25 hover:scale-105 active:scale-95"
+              className="px-4 py-2 rounded-full text-xs font-extrabold text-white bg-linear-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 transition-all cursor-pointer shadow-lg shadow-orange-500/25 hover:scale-105 active:scale-95"
             >
               Login Member
             </button>
